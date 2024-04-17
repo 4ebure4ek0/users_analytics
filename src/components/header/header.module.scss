@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    .search{
+        background-color: var(--background-color);
+        color: var(--titles-color);
+        padding: 0 8px;
+        border-radius: var(--radius);
+        border: none;
+        outline: none;
+        height: 52px;
+        width: 332px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+    }
+    .btn_refresh{
+        color: var(--active-color);
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+}

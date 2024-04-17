@@ -1,0 +1,42 @@
+.analytics{
+    background-color: var(--background-color);
+    color: var(--font-color);
+    padding: 20px;
+    border-radius: var(--radius);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .head_title{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    .hr{
+        border: 1px solid #303238;
+    }
+    .group{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .group_title_{
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+        }
+        .group_item{
+            display: grid;
+            grid-template-columns: 2fr auto 3fr;
+            .group_item_title{
+                color: var(--titles-color);
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 20px;
+            }
+            .group_item_content{
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+            }
+        }
+    }
+}
