@@ -1,3 +1,4 @@
+import GroupItem from '../groupItem/groupItem'
 import styles from './analyticsBar.module.scss'
 
 const AnalyticsBar = () => {
@@ -7,26 +8,11 @@ const AnalyticsBar = () => {
             <hr className={styles.hr}/>
             <div className={styles.group}>
                 <h3 className={styles.group_title}>Age Groups</h3>
-                <p className={styles.group_item}>
-                    <span className={styles.group_item_title}>11 to 20</span>
-                    <span className={styles.group_item_content}>52 users</span>
-                </p>
-                <p className={styles.group_item}>
-                    <span className={styles.group_item_title}>21 to 30</span>
-                    <span className={styles.group_item_content}>642 users</span>
-                </p>
-                <p className={styles.group_item}>
-                    <span className={styles.group_item_title}>31 to 40</span>
-                    <span className={styles.group_item_content}>108 users</span>
-                </p>
-                <p className={styles.group_item}>
-                    <span className={styles.group_item_title}>41 to 50</span>
-                    <span className={styles.group_item_content}>197 users</span>
-                </p>
-                <p className={styles.group_item}>
-                    <span className={styles.group_item_title}>51+</span>
-                    <span className={styles.group_item_content}>1 user</span>
-                </p>
+                <GroupItem title={'11 to 20'} content={'52 users'} />
+                <GroupItem title={'21 to 30'} content={'642 users'} />
+                <GroupItem title={'31 to 40'} content={'108 users'} />
+                <GroupItem title={'41 to 50'} content={'197 users'} />
+                <GroupItem title={'51+'} content={'1 user'} />
             </div>
             <hr className={styles.hr}/>
             <div className={styles.group}>

@@ -1,0 +1,15 @@
+.group_item{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    .group_item_title{
+        color: var(--titles-color);
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+    .group_item_content{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+    }
+}
